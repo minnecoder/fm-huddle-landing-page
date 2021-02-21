@@ -1,7 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
 .hero {
   background: url("/images/bg-hero-desktop.svg");
+  background-color: #edfbfe;
+  height: 100vh;
 }
-
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+.top button {
+  font-weight: 600;
+  background: white;
+  border-radius: 25px;
+  border: solid white;
+  padding: 1rem 4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.top img {
+  height: 2rem;
+}
+.hero-main {
+  display: flex;
+  padding: 1rem 4rem;
+}
+.hero-info {
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+  width: 40%;
+  padding: 0 5rem 0 1rem;
+}
+.hero-info h1{
+  font-size: 3rem;
+}
+.hero-info p {
+  margin: 2rem 0;
+  line-height: 1.8;
+  font-size: 1.25rem;
+}
+.hero-info button {
+  color: white;
+  font-weight: 600;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 40px;
+  border: none;
+  width: 40%;
+  padding: 1rem 1rem;
+}
+.hero-img {
+  height: auto;
+  width: 55%;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8rem 0;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 2rem;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.box img {
+  height: 20rem;
+}
+.box-text {
+  max-width: 30rem;
+  overflow: hidden;
+}
+.box-text h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+.cta {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+  width: 40rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.cta button{
+  color: white;
+  font-weight: 600;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 40px;
+  border: none;
+  padding: 2rem 4rem;
+  font-size: 1.2rem; 
+}
+footer{
+  background: black;
+  color: white;
+}
+.footer-sections{
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+.footer-section{
+  display: flex;
+  flex-direction: column;
+}
+.contact-item{
+  display:flex;
+}
+.contact-item p{
+  padding-left: 1rem;
+}
+.social-icon{
+height: 30px;
+width: 30px;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
